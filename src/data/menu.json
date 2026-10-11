@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "id": "smoked-meats", "name": "Smoked Meats" },
+    { "id": "burgers", "name": "Burgers & Rolls" },
+    { "id": "sides", "name": "Sides" },
+    { "id": "drinks", "name": "Drinks" }
+  ],
+  "items": [
+    {
+      "id": "smoked-brisket",
+      "name": "Smoked Brisket",
+      "description": "Tender, juicy, full of flavour",
+      "price": 16,
+      "category": "smoked-meats",
+      "image": "/images/brisket.jpg",
+      "highlight": true
+    },
+    {
+      "id": "bbq-beef-burger",
+      "name": "BBQ Beef Burger",
+      "description": "Smoky. Cheesy. Delicious.",
+      "price": 14,
+      "category": "burgers",
+      "image": "/images/burger.jpg",
+      "highlight": true
+    },
+    {
+      "id": "smoked-pork-ribs",
+      "name": "Smoked Pork Ribs",
+      "description": "Slow cooked, fall-off-the-bone",
+      "price": 18,
+      "category": "smoked-meats",
+      "image": "/images/ribs.jpg",
+      "highlight": true
+    },
+    {
+      "id": "loaded-fries",
+      "name": "Loaded Fries",
+      "description": "Crispy fries, cheesy, smoky",
+      "price": 10,
+      "category": "sides",
+      "image": "/images/fries.jpg",
+      "highlight": true
+    },
+    {
+      "id": "smoked-chicken-wings",
+      "name": "Smoked Chicken Wings",
+      "description": "Bold flavour, perfect bite",
+      "price": 12,
+      "category": "smoked-meats",
+      "image": "/images/wings.jpg",
+      "highlight": true
+    },
+    {
+      "id": "pulled-pork-roll",
+      "name": "Pulled Pork Roll",
+      "description": "Smoked pulled pork, slaw, tangy BBQ sauce",
+      "price": 13,
+      "category": "burgers",
+      "image": null,
+      "highlight": false
+    },
+    {
+      "id": "smokehouse-chicken-burger",
+      "name": "Smokehouse Chicken Burger",
+      "description": "Crispy chicken, smoked mayo, pickles",
+      "price": 13,
+      "category": "burgers",
+      "image": null,
+      "highlight": false
+    },
+    {
+      "id": "smoked-sausage-plate",
+      "name": "Smoked Sausage Plate",
+      "description": "House-smoked sausage with grilled onions",
+      "price": 15,
+      "category": "smoked-meats",
+      "image": null,
+      "highlight": false
+    },
+    {
+      "id": "mac-and-cheese",
+      "name": "Smoky Mac & Cheese",
+      "description": "Creamy, baked and topped with crumb",
+      "price": 8,
+      "category": "sides",
+      "image": null,
+      "highlight": false
+    },
+    {
+      "id": "creamy-coleslaw",
+      "name": "Creamy Coleslaw",
+      "description": "Fresh, crunchy and cool",
+      "price": 6,
+      "category": "sides",
+      "image": null,
+      "highlight": false
+    },
+    {
+      "id": "iced-tea",
+      "name": "Iced Tea",
+      "description": "Fresh brewed, lightly sweet",
+      "price": 5,
+      "category": "drinks",
+      "image": null,
+      "highlight": false
+    },
+    {
+      "id": "lemonade",
+      "name": "House Lemonade",
+      "description": "Freshly squeezed, served cold",
+      "price": 5,
+      "category": "drinks",
+      "image": null,
+      "highlight": false
+    }
+  ]
+}

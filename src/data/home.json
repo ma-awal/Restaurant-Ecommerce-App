@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "script": "Real Smoke. Bold Flavour.",
+    "title": "Flame and Grill",
+    "accent": "Smokehouse",
+    "country": "Australia",
+    "highlights": ["Premium BBQ", "Fresh Ingredients", "Made with Passion"],
+    "description": "Authentic smokehouse flavours, mouth-watering smoked meats, burgers, and more — now available for pickup or home delivery!",
+    "image": "/images/bg-truck.jpeg",
+    "imageAlt": "Flame and Grill Smokehouse food truck with a loaded burger and fries",
+    "primaryCta": { "label": "Order Now", "href": "/menu", "icon": "utensils" },
+    "secondaryCta": { "label": "View Menu", "href": "/menu", "icon": "list" }
+  },
+  "features": [
+    {
+      "icon": "flame",
+      "title": "Fresh Ingredients",
+      "text": "Quality you can taste"
+    },
+    {
+      "icon": "grill",
+      "title": "Authentic Smokehouse",
+      "text": "Real wood. Real flavour."
+    },
+    {
+      "icon": "truck",
+      "title": "Food Truck Convenience",
+      "text": "Great food, on the go"
+    },
+    {
+      "icon": "shield",
+      "title": "Safe & Hygienic",
+      "text": "Your health matters"
+    }
+  ],
+  "menuSection": {
+    "eyebrow": "Our Menu",
+    "title": "Menu Highlights",
+    "linkLabel": "View Full Menu",
+    "linkHref": "/menu"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "Order Your Favourite Food",
+    "subtitle": "Simple. Fast. Convenient.",
+    "steps": [
+      {
+        "icon": "cursor",
+        "title": "Choose Food",
+        "text": "Browse our menu and add items to cart."
+      },
+      {
+        "icon": "card",
+        "title": "Checkout",
+        "text": "Select Pickup or Delivery and enter your details."
+      },
+      {
+        "icon": "cash",
+        "title": "Pickup / COD",
+        "text": "Cash on Pickup or Cash on Delivery."
+      },
+      { "icon": "smile", "title": "Enjoy!", "text": "Fresh. Hot. Delicious." }
+    ],
+    "modes": [
+      {
+        "id": "pickup",
+        "icon": "store",
+        "title": "Store Pickup",
+        "text": "Collect your order from our food truck location.",
+        "cta": "Select Pickup"
+      },
+      {
+        "id": "delivery",
+        "icon": "truck",
+        "title": "Home Delivery",
+        "text": "Available in selected postcodes (see delivery area).",
+        "cta": "Check Delivery Area"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "Flame and Grill Smokehouse",
+    "text": "We are a passion-driven Australian food truck serving premium smoked meats, grilled food and bold flavours. From tender brisket to juicy burgers, our menu is crafted with fresh ingredients and real smokehouse passion.",
+    "image": "/images/about-brisket.jpg",
+    "imageAlt": "Sliced smoked brisket on a wooden board",
+    "badges": [
+      { "icon": "meat", "label": "Quality Meat" },
+      { "icon": "leaf", "label": "Fresh Ingredients" },
+
+      { "icon": "flame", "label": "Australian Owned" }
+    ],
+    "cta": { "label": "Learn More", "href": "/about" },
+    "script": ["Good Food", "Good Vibes"]
+  },
+  "location": {
+    "locationTitle": "Our Location",
+    "directionsLabel": "Get Directions",
+    "hoursTitle": "Opening Hours",
+    "mapImage": "/images/map.jpg",
+    "mapAlt": "Map showing the Flame and Grill Smokehouse location in Melbourne"
+  }
+}

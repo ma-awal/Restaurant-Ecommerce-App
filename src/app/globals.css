@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink font-sans text-white antialiased;
+  }
+
+  [id] {
+    scroll-margin-top: 84px;
+  }
+
+  ::selection {
+    background: #f96a0a;
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid #f96a0a;
+    outline-offset: 2px;
+  }
+}
+
+/* ---------- Scroll reveal (see components/ui/Reveal.jsx) ---------- */
+.reveal {
+  opacity: 0;
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1) var(--reveal-delay, 0ms),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1) var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal-up {
+  transform: translateY(42px);
+}
+.reveal-down {
+  transform: translateY(-32px);
+}
+.reveal-left {
+  transform: translateX(-56px);
+}
+.reveal-right {
+  transform: translateX(56px);
+}
+.reveal-zoom {
+  transform: scale(0.92);
+}
+.reveal-fade {
+  transform: none;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- Hero image fade into the dark background ---------- */
+@media (min-width: 1024px) {
+  .hero-fade {
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 34%);
+    mask-image: linear-gradient(to right, transparent 0%, #000 34%);
+  }
+}
+
+/* ---------- Respect reduced-motion preferences ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .animate-hero-in,
+  .animate-hero-img,
+  .animate-ken-burns,
+  .animate-toast-in,
+  .animate-pop,
+  .animate-fade-in {
+    animation: none !important;
+  }
+}

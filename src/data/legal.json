@@ -1,0 +1,46 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "1 January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "When you place an order or contact us, we collect the details you provide, such as your name, phone number, email address and delivery address. We only collect what we need to prepare and deliver your order and to reply to your enquiries."
+      },
+      {
+        "heading": "How we use your information",
+        "body": "We use your details to process orders, contact you about your order, answer questions and improve our service. We do not sell your personal information."
+      },
+      {
+        "heading": "Cookies and local storage",
+        "body": "This website stores your cart and order preferences in your browser so they are still there when you come back. You can clear this data at any time from your browser settings."
+      },
+      {
+        "heading": "Contact us",
+        "body": "If you have any questions about this policy, email us at hello@flameandgrill.com.au."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "updated": "1 January 2026",
+    "sections": [
+      {
+        "heading": "Orders",
+        "body": "Orders placed through this website are requests to purchase. We confirm each order by phone or message. Prices are in Australian dollars and may change without notice."
+      },
+      {
+        "heading": "Payment",
+        "body": "Payment is made in cash when you collect your order (Cash on Pickup) or when it is delivered (Cash on Delivery)."
+      },
+      {
+        "heading": "Delivery",
+        "body": "Home delivery is available in selected postcodes only. Delivery times are estimates and can vary with demand and traffic."
+      },
+      {
+        "heading": "Allergens",
+        "body": "Our food is prepared in a kitchen that handles gluten, dairy, eggs, soy, nuts and other allergens. Please tell us about any allergies when you order."
+      }
+    ]
+  }
+}

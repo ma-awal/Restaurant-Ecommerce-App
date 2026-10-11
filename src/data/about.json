@@ -1,0 +1,24 @@
+{
+  "title": "Our Story",
+  "subtitle": "Real wood, slow smoke and food made with passion.",
+  "story": [
+    "Flame and Grill Smokehouse started with a simple idea: serve proper Australian barbecue from a food truck, without cutting corners. Every cut of meat is seasoned by hand and smoked low and slow over real wood.",
+    "From tender brisket and fall-off-the-bone pork ribs to stacked burgers and loaded fries, our menu is built around bold flavour and fresh ingredients.",
+    "Find us on the road, or order online for pickup from the truck or delivery to your door in selected postcodes."
+  ],
+  "image": "/images/about-brisket.jpg",
+  "imageAlt": "Sliced smoked brisket on a wooden board",
+  "valuesTitle": "What we stand for",
+  "values": [
+    { "icon": "meat", "title": "Quality Meat", "text": "Premium cuts, trimmed and seasoned in house, smoked until perfect." },
+    { "icon": "leaf", "title": "Fresh Ingredients", "text": "Buns, slaws and sides prepared fresh every day." },
+    { "icon": "users", "title": "Family Friendly", "text": "Big portions and a welcoming vibe for every table." },
+    { "icon": "shield", "title": "Safe & Hygienic", "text": "Clean kitchen standards, because your health matters." }
+  ],
+  "cta": {
+    "title": "Hungry? Let's get smoking.",
+    "text": "Order online and pay with cash on pickup or delivery.",
+    "label": "Order Now",
+    "href": "/menu"
+  }
+}

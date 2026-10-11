@@ -1,0 +1,63 @@
+{
+  "name": "Flame and Grill Smokehouse",
+  "shortName": "Flame and Grill",
+  "description": "Authentic Australian smokehouse food truck serving premium smoked brisket, burgers, ribs, wings and more. Order for pickup or home delivery in Melbourne.",
+  "currency": "$",
+  "timezone": "Australia/Melbourne",
+  "logo": {
+    "header": "/images/logo-header.png",
+    "footer": "/images/logo-footer.png",
+    "width": 666,
+    "height": 186
+  },
+  "headerCta": { "label": "Order Now", "href": "/menu" },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/#about" },
+    { "label": "Food Menu", "href": "/menu", "dropdown": "categories" },
+    { "label": "Contact", "href": "/contact" },
+    { "label": "Location & Hours", "href": "/#location" }
+  ],
+  "quickLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Food Menu", "href": "/menu" },
+    { "label": "Contact", "href": "/contact" },
+    { "label": "Location & Hours", "href": "/#location" }
+  ],
+  "contact": {
+    "phone": "+61 412 345 678",
+    "email": "hello@flameandgrill.com.au",
+    "addressLines": ["123 Riverside Drive", "Melbourne, VIC 3000", "Australia"],
+    "addressShort": "123 Riverside Drive, Melbourne, VIC 3000",
+    "mapsQuery": "123 Riverside Drive, Melbourne VIC 3000, Australia"
+  },
+  "hours": [
+    { "day": "Monday", "time": "11:00 AM – 9:00 PM" },
+    { "day": "Tuesday", "time": "11:00 AM – 9:00 PM" },
+    { "day": "Wednesday", "time": "11:00 AM – 9:00 PM" },
+    { "day": "Thursday", "time": "11:00 AM – 9:00 PM" },
+    { "day": "Friday", "time": "11:00 AM – 10:00 PM" },
+    { "day": "Saturday", "time": "11:00 AM – 10:00 PM" },
+    { "day": "Sunday", "time": "11:00 AM – 8:00 PM" }
+  ],
+  "social": [
+    { "name": "Facebook", "icon": "facebook", "href": "https://facebook.com" },
+    { "name": "Instagram", "icon": "instagram", "href": "https://instagram.com" },
+    { "name": "TikTok", "icon": "tiktok", "href": "https://tiktok.com" },
+    { "name": "YouTube", "icon": "youtube", "href": "https://youtube.com" }
+  ],
+  "order": {
+    "paymentLabels": {
+      "pickup": "Cash on Pickup",
+      "delivery": "Cash on Delivery"
+    },
+    "deliveryFee": 5,
+    "freeDeliveryOver": 50,
+    "deliveryPostcodes": ["3000", "3002", "3004", "3006", "3008", "3053", "3065", "3066", "3121", "3141"]
+  },
+  "legalLinks": [
+    { "label": "Privacy Policy", "href": "/privacy" },
+    { "label": "Terms & Conditions", "href": "/terms" }
+  ]
+}
